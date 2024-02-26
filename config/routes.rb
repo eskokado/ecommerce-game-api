@@ -8,6 +8,7 @@ Rails.application.routes.draw do
       resources :coupons
       resources :users
       resources :system_requirements
+      resources :products
     end
   end
 
